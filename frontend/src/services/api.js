@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = axios.create({ baseURL: "https://vrv-security-s-backend-assignment.onrender.com/api" });
+const API = axios.create({ baseURL: "https://vrv-assignment-lij9.onrender.com/api" });
 
 export const register = (data) => API.post("/users/register", data);
 export const login = (data) => API.post("/users/login", data);
